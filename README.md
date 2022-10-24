@@ -1,11 +1,11 @@
 # CrackStationWrapper
 
-A test harness for the `CrackStation` assignment in CS 561.
+A test harness for the `CrackStation` assignment in CS 561.  This test harness is for POC v1 only, so single-character passwords encrypted using SHA-1.  We plan to expand it to POC v2 and MVP.
 
 ## Usage
 
 Under `dependencies` in the `Package.swift` file, add the git URL of the concrete implementation to test:
-![image](https://user-images.githubusercontent.com/4765449/197596815-51b5b240-e087-4fbd-bf96-66b94f08b3fa.png)
+<img width=700 src="https://user-images.githubusercontent.com/4765449/197596815-51b5b240-e087-4fbd-bf96-66b94f08b3fa.png">
 
 ### If you are a student
 
@@ -22,10 +22,10 @@ If the student repository is private (as it should be for this assignment), then
 
 Resetting your package cache:
 `swift package reset`
-This should force your packages to re-fetch.
+This should force your packages to re-fetch.  (Well, technically, force your package's _dependencies_ to re-fetch; but in this case your package is the dependency of the test harness, so...)
 
 ### In Xcode
 
-Resetting your package cache, which should force your package to re-fetch.
+Resetting your package cache, which should force your package to re-fetch.  (Well, technically, force your package's _dependencies_ to re-fetch; but in this case your package is the dependency of the test harness, so...)
 
-![image](https://user-images.githubusercontent.com/4765449/197598041-e8d5cbbb-35c3-49dc-983c-e96f322e0552.png)
+<img width=500 src="https://user-images.githubusercontent.com/4765449/197598041-e8d5cbbb-35c3-49dc-983c-e96f322e0552.png">
