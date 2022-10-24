@@ -4,4 +4,13 @@ A test harness for the `CrackStation` assignment in CS 561.
 
 ## Usage
 
-Add a git URL under `dependencies` in the `Package.swift` file.  If the student repository is private (as it probably should be), then make sure the student adds you as a *collaborator*.  Then, use the ssh git link for the git URL.  For the version tag to work, the student must `git tag` their release using *semantic versioning* (e.g. `git tag 1.0.0`).
+Under `dependencies` in the `Package.swift` file, add the git URL of the concrete implementation to test:
+![image](https://user-images.githubusercontent.com/4765449/197596815-51b5b240-e087-4fbd-bf96-66b94f08b3fa.png)
+
+### If you are a student
+
+So, if you are a student trying to run this test harness on your own code, then uncomment the line above and replace `<YOUR GITHUB USERNAME>` with... your github username.  If the link to your repo is different, then replace the entire URL.
+
+### If you are a TA
+
+If the student repository is private (as it should be for this assignment), then make sure the student adds you as a *collaborator*.  Then, use the ssh git link for the git URL.  For the version tag to work, the student must `git tag` their release using *semantic versioning* (e.g. `git tag 1.0.0`).
