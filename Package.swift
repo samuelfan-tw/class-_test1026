@@ -26,7 +26,7 @@ let package = Package(
                 // the package repo isn't named `CrackStation`. Here:
                 //
                 //.product(name: "CrackStation", package: "sha-crack-station")
-            ],
+            ]),
         .testTarget(
             name: "CrackStationWrapperTests",
             dependencies: ["CrackStationWrapper"])
