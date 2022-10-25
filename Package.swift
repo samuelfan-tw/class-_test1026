@@ -27,10 +27,8 @@ let package = Package(
                 //
                 //.product(name: "CrackStation", package: "sha-crack-station")
             ],
-            resources: [.process("Resources")]),
         .testTarget(
             name: "CrackStationWrapperTests",
-            dependencies: ["CrackStationWrapper"],
-            resources: [.process("Resources")]),
+            dependencies: ["CrackStationWrapper"])
     ]
 )
